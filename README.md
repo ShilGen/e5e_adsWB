@@ -1,4 +1,4 @@
-#Репозиторий для сбора данных о рекламных кампаниях Wildberries
+# Репозиторий для сбора данных о рекламных кампаниях Wildberries
 
 Этот репозиторий содержит скрипт для сбора данных о рекламных кампаниях с API Wildberries и сохранения их в базу данных SQLite с использованием SQLAlchemy и Alembic для управления миграциями.
 
@@ -19,15 +19,11 @@ Activate a virtual environment
 ```bash
 source .venv/bin/activate
 ```
-Deactivate a virtual environment
-```bash
-deactivate
-```
 Install packages using pip and requirements file
 ```bash
 python3 -m pip install -r requirements.txt
 ```
-##Дополнительные шаги 
+## Дополнительные шаги 
 
 Инициализация Alembic  
 ```bash 
@@ -47,7 +43,10 @@ alembic upgrade head
 ```bash
 python main.py
 ```     
-     
+Deactivate a virtual environment
+```bash
+deactivate
+```
 ### Структура проекта 
  
 ```
