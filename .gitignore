@@ -1,0 +1,8 @@
+__pycache__/
+alembic/__pycache__/
+alembic/versions/
+alembic/README
+alembic/script.py.mako
+.env
+*.db
+.venv/

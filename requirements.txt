@@ -1,0 +1,5 @@
+alembic
+black
+SQLAlchemy
+requests
+python-dotenv
